@@ -11,7 +11,7 @@ class Level:
     def __init__(self, window, name, menu_option):
         self.window: Surface = window
         self.name = name
-        self.mode = menu_option  # opção menu
+        self.mode = menu_option
         self.entity_list: list[Entity] = []
         self.entity_list.extend(EntityFactory.get_entity('Level1Bg'))
 
