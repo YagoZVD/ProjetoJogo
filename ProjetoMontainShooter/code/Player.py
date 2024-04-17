@@ -24,3 +24,4 @@ class Player(Entity):
 
         if pressed_key[PLAYER_KEY_RIGHT[self.name]] and self.rect.right < WIN_WIDTH:  # Se a tecla seta para baixo foi pressionada
             self.rect.centerx += ENTITY_SPEED[self.name]
+
